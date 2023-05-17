@@ -41,7 +41,7 @@ public class DemoApplication {
       simpleDateFormat = new SimpleDateFormat(pattern);
       String stringNow = simpleDateFormat.format(new Date());
 
-      System.out.println("Namaste: " + cnt);
+      System.out.println("Namaste2: " + cnt);
       return "Namaste Spring " + cnt++ + " " + stringNow + " on " + HOSTNAME;
     }
 
